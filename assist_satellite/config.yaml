@@ -1,9 +1,9 @@
 ---
-version: 2.0.0
+version: 1.0.0
 slug: assist_satellite
 name: Assist Satellite
 description: Turn HA host into a voice assistant with a connected microphone and speaker 
-url: https://github.com/home-assistant/addons/blob/master/assist_satellite
+url: https://github.com/OHF-Voice/apps/blob/main/assist_satellite
 hassio_api: false
 arch:
   - amd64
@@ -54,4 +54,3 @@ schema:
 audio: true
 host_network: true
 homeassistant: 2026.3.0
-image: homeassistant/addon-assist_satellite
